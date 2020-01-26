@@ -43,13 +43,13 @@ variable "lambdas3bucket" {
   description = "bucket details"
 
   default = {
-    prod = "terra-s3-bucket"
-    dev = "terra-s3-bucket"
+    prod = "< Enter s3 bucket which contains the lambda code >"
+    dev = "< Enter s3 bucket which contains the lambda code >"
   }
 }
 
 variable "lambdas3key" {
-  description = "bucket details"
+  description = "code path in S3 bucket"
 
   default = {
     prod = "v1.0.0/function.zip"

@@ -1,0 +1,10 @@
+variable "image_id" {}
+variable "name" {}
+variable "instance_type" {}
+variable "availability_zones" {}
+variable "desired_capacity" {}
+variable "max_size" {}
+variable "min_size" {}
+variable "vpc_zone_identifier" {}
+variable "ssh_pub_key" {}
+variable "vpc_security_group_ids" {}

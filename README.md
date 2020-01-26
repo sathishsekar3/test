@@ -1,6 +1,6 @@
 # Solution
 
-#Architecture
+**Architecture**
 
 
 <img width="879" alt="solution" src="https://user-images.githubusercontent.com/16284740/73133175-16190d00-4060-11ea-84a2-c4bdf1aa641f.png">
@@ -22,7 +22,7 @@ Instructions to launch Cloudfront with ALB backend isnt available in Terraform d
 
 The other solution is present in the file solutions.docx file.
 
-**prerequisite
+**prerequisite**
 
 1) Update the aws credential and S3 details in tf_backend.tf file.
 
@@ -54,11 +54,11 @@ db_password = "hpdemouk"
 ssh_pub_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD3F6tyPEFEzV0LX3X8BsXdMsQz1x2cEikKDEY0aIj41qgxMCP/iteneqXSIFZBp5vizPvaoIR3Um9xK7PGoW8giupGn+EPuxIA4cDM4vzOqOkiMPhz5XK0whEjkVzTo4+S0puvDZuwIsdiW9mxhJc7tgBNL0cYlWSYVkz4G/fslNfRPW5mYAM49f4fhtxPb5ok4Q2Lg9dPKVHO/Bgeu5woMc7RY0p1ej6D4CKFE6lymSDJpW0YHX/wqE9+cfEauh7xZcG0q9t2ta6F6fmX0agvpFyZo8aFbXeUBr7osSCJNgvavWbM/06niWrOvYX2xwWdhXmXSrbX8ZbabVohBK41"
 ```
 
-**Terraform workspace can be used to promote the code across environments
+**Terraform workspace can be used to promote the code across environments**
 
 > Note: the existing code supports dev and prod environments
 
-Execution steps:
+**Execution steps:**
 
 1) Create "dev" workspace
 ```
